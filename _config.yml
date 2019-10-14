@@ -24,6 +24,9 @@ social:
 # Build
 
 encoding: UTF-8
+jekyll:
+  - build --safe: true
+
 
 paginate: 10
 paginate_path: "/advice/:num/"
