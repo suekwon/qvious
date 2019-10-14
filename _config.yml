@@ -23,7 +23,7 @@ social:
 # -----
 # Build
 
-
+encoding: UTF-8
 
 paginate: 10
 paginate_path: "/advice/:num/"
