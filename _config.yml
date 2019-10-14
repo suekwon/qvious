@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Qvious
+title: Justice Template
 url: "https://orchid-heron.cloudvent.net"
 baseurl: 
 google_analytics_key:
@@ -16,17 +16,14 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Qvious Template
+  name: Justice Template
   links:
     - https://github.com/CloudCannon/justice-jekyll-template
 
 # -----
 # Build
 
-encoding: UTF-8
-jekyll:
-  - build --safe: true
-
+#timezone: Etc/UTC+8
 
 paginate: 10
 paginate_path: "/advice/:num/"
@@ -66,28 +63,11 @@ defaults:
 
 permalink: pretty
 
-
-
-
-# Build settings
-markdown: kramdown
-excerpt_separator: "<!-- more -->"
-
-# Markdown settings
-kramdown:
-  auto_ids: false
-  enable_coderay: false
-  entity_output: as_char
-  footnote_nr: 1
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  toc_levels: 1..6 
-
-
 jekyll-archives:
   enabled:
     - categories
 
-plugins_dir:
+plugins:
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -108,17 +88,16 @@ call_to_actions:
   - Advice
   - Map
 
-
-#social_icons:
-#  - Facebook
-#  - Google Plus
-#  - Instagram
-#  - LinkedIn
-#  - Pinterest
-#  - Tumblr
-#  - Twitter
-#  - YouTube
-#  - RSS
+social_icons:
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
+  - RSS
 
 _comments:
   large_header: Toggles the size of the top banner.
